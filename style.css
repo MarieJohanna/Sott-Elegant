@@ -1,7 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #286356a1;
+  padding: 2%;
+  /* background-color: #286356a1; */
+  background-color: #345270;
+}
+
+h1 {
+  /* color: #343470; */
+  color: #fff;
+  font-family: 'Rozha One', serif;
+  font-weight: lighter;
+}
+
+.one {
+  /* border: 10px dotted #343470ad; */
+  border: 10px dotted #d4bce0;
+  padding: 2%;
+  width: 30%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.two {
+  /* border: 10px dotted #343470ad; */
+  border: 10px dotted #d4bce0;
+  padding: 2%;
+  width: 30%;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
 }
