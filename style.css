@@ -29,12 +29,7 @@ h2 {
 }
 
 p {
-  border: 10px dotted #d4bce0;
-  padding: 2%;
-  color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Raleway', sans-serif;
+
 }
 
 /*Hamburger menu section*/
@@ -113,6 +108,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding: 1%;
+  /* border: 10px dotted #345270; */
 }
 
 .menu-item:nth-child(1) {
@@ -130,6 +126,19 @@ p {
   text-align: center;
 }
 
+/* Hero images on the various pages*/
+.about {
+  background-image: url("./Images/cooks-842244_1920.jpg");
+}
+.products {
+  background-image: url("./Images/cake-1283824_1920.jpg");
+}
+.courses {
+  background-image: url("./Images/holly-stratton-576521-unsplash.jpg");
+}
+.contact {
+  background-image: url("./Images/holly-stratton-576521-unsplash.jpg");
+}
 .box {
   position: relative;
   padding: 0 2%;
@@ -144,13 +153,42 @@ p {
   top: 330px;
 }
 
-.product-section, .course-section {
+.section, .section {
+  margin-top: 5%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 10px dotted #d4bce0;
+  padding: 2%;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.sales-point {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.product-section img, .course-section img {
+.sales-point img {
   margin-top: 10%;
   width: 100%;
+}
+
+.container-products {
+  margin-top: 10%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.one-product {
+  border: 10px dotted #d4bce0;
+  width: 80%;
+  height: 20vh;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
 }
