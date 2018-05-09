@@ -130,6 +130,20 @@ p {
   text-align: center;
 }
 
+.box {
+  position: relative;
+  padding: 0 2%;
+}
+
+.logo {
+  padding: 2%;
+  position: absolute;
+  background-color: #345270ba;
+  float: right;
+  right: 50px;
+  top: 330px;
+}
+
 .product-section, .course-section {
   width: 60%;
   margin-left: auto;
