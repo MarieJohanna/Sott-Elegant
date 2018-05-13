@@ -170,6 +170,14 @@ p {
   margin-right: auto;
 }
 
+.bulle {
+  border-bottom: 10px dotted #d4bce0;
+}
+.sales-point h2 {
+  color: #d4bce0;
+  font-size: 400%;
+}
+
 .sales-point img {
   margin-top: 10%;
   width: 100%;
@@ -191,4 +199,25 @@ p {
   margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
+  padding: 2%;
+}
+
+.one-product h2, .one-product p {
+  color: #d4bce0;
+}
+
+footer {
+  width: 100%;
+}
+
+footer h5   {
+  color: #d4bce0;
+}
+
+.footer {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
 }
