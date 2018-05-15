@@ -168,11 +168,9 @@ p {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.bulle {
   border-bottom: 10px dotted #d4bce0;
 }
+
 .sales-point h2 {
   color: #d4bce0;
   font-size: 400%;
@@ -208,16 +206,23 @@ p {
 
 footer {
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
 }
 
-footer h5   {
+footer h3, footer h4 {
+  font-size: 200%;
   color: #d4bce0;
+  margin: 0;
 }
 
 .footer {
   display: flex;
-  width: 80%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
