@@ -11,6 +11,11 @@ body {
   background-color: #345270;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+}
+
 h1 {
   color: #fff;
   font-family: 'Rozha One', serif;
@@ -26,10 +31,6 @@ h2 {
 
 .menu a {
   text-decoration: none;
-}
-
-p {
-
 }
 
 /*Hamburger menu section*/
@@ -51,6 +52,7 @@ p {
 .row {
   position: relative;
   width: 100%;
+  background-color: #345270;
 }
 
 .menu #hamburger-checkbox {
@@ -116,8 +118,8 @@ p {
 }
 
 .hero-section {
-  background-image: url("./Images/artur-rutkowski-581979-unsplash.jpg");
-  background-position: center;
+  background-image: url("./Images/cake-1283824_1920.jpg");
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -131,13 +133,13 @@ p {
   background-image: url("./Images/cooks-842244_1920.jpg");
 }
 .products {
-  background-image: url("./Images/daniel-masajada-622375-unsplash.jpg");
+  background-image: url("./Images/artur-rutkowski-581979-unsplash.jpg");
 }
 .courses {
   background-image: url("./Images/holly-stratton-576521-unsplash.jpg");
 }
 .contact {
-  background-image: url("./Images/holly-stratton-576521-unsplash.jpg");
+  background-image: url("./Images/strawberries-2357171_1920.jpg");
 }
 .box {
   position: relative;
@@ -176,6 +178,10 @@ p {
   font-size: 400%;
 }
 
+.sales-point a {
+  color: #d4bce0;
+}
+
 .sales-point img {
   margin-top: 10%;
   width: 100%;
@@ -209,11 +215,22 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  background-color: #d4bce0;
+  color: #345270;
+  text-align: center;
+  height: 10%;
+  position: fixed;
+  bottom: 0;
 }
 
-footer h3, footer h4 {
+footer h3 {
   font-size: 200%;
-  color: #d4bce0;
+  margin: 0;
+}
+
+footer h4 {
   margin: 0;
 }
 
@@ -225,4 +242,8 @@ footer h3, footer h4 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+footer a {
+  color: #345270;
 }
