@@ -132,27 +132,23 @@ h2 {
 .about {
   background-image: url("./Images/cooks-842244_1920.jpg");
 }
+
 .products {
-  background-image: url("./Images/artur-rutkowski-581979-unsplash.jpg");
+  background-image: url("./Images/macarons-2548827_1920.jpg");
+  background-position: center;
 }
+
 .courses {
-  background-image: url("./Images/holly-stratton-576521-unsplash.jpg");
+  background-image: url("./Images/victor-rodriguez-iglesias-487137-unsplash.jpg");
 }
+
 .contact {
-  background-image: url("./Images/strawberries-2357171_1920.jpg");
+  background-image: url("./Images/paper-1731726_1920.jpg");
 }
+
 .box {
   position: relative;
   padding: 0 2%;
-}
-
-.logo {
-  padding: 2%;
-  position: absolute;
-  background-color: #345270ba;
-  float: right;
-  right: 50px;
-  top: 330px;
 }
 
 .section, .section {
@@ -164,6 +160,19 @@ h2 {
   padding: 2%;
   color: #fff;
   font-family: 'Raleway', sans-serif;
+}
+
+.logotype h1 {
+  color: #fff;
+  font-size: 500%;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+.logotype {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sales-point {
@@ -193,10 +202,13 @@ h2 {
   justify-content: flex-start;
   flex-direction: column;
   width: 100%;
-
 }
 
 .one-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   border: 10px dotted #d4bce0;
   width: 80%;
   height: 20vh;
@@ -208,6 +220,14 @@ h2 {
 
 .one-product h2, .one-product p {
   color: #d4bce0;
+  text-align: left;
+}
+
+.prod-text {
+  width: 100%;
+}
+.prod-img img {
+  width: 50%;
 }
 
 footer {
