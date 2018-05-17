@@ -146,11 +146,6 @@ h2 {
   background-image: url("./Images/paper-1731726_1920.jpg");
 }
 
-.box {
-  position: relative;
-  padding: 0 2%;
-}
-
 .section, .section {
   margin-top: 5%;
   width: 80%;
@@ -160,6 +155,16 @@ h2 {
   padding: 2%;
   color: #fff;
   font-family: 'Raleway', sans-serif;
+}
+
+.image-separate {
+  margin-top: 5%;
+  background-image: url("./Images/holly-stratton-576521-unsplash.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30vh;
 }
 
 .logotype h1 {
@@ -215,19 +220,16 @@ h2 {
   margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
-  padding: 2%;
+  padding: 3%;
 }
 
 .one-product h2, .one-product p {
   color: #d4bce0;
-  text-align: left;
+  text-align: center;
 }
 
 .prod-text {
-  width: 100%;
-}
-.prod-img img {
-  width: 50%;
+  width: 45%;
 }
 
 footer {
@@ -241,8 +243,8 @@ footer {
   color: #345270;
   text-align: center;
   height: 10%;
-  position: fixed;
-  bottom: 0;
+  /* position: fixed;
+  bottom: 0; */
 }
 
 footer h3 {
