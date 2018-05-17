@@ -269,3 +269,20 @@ footer h4 {
 footer a {
   color: #345270;
 }
+
+/* Media queries  */
+@media (min-width: 600px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px) {
+  .hero-section {
+    height: 100%;
+  }
+  .sales-point {
+    border-bottom: 5px dotted #d4bce0;
+  }
+  .sales-point h2 {
+    font-size: 300%;
+  }
+}
