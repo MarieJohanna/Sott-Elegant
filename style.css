@@ -122,7 +122,7 @@ p {
 }
 
 .hero-section {
-  background: url("./Images/cake-1283824_1920.jpg") no-repeat center center;
+  background-image: url("./Images/cake-1283824_700.jpg");
   background-size: cover;
   background-position: top;
   height: 35vh;
@@ -132,22 +132,23 @@ p {
 
 /* Hero images on the various pages*/
 .about {
-  background-image: url("./Images/cooks-842244_1920.jpg");
+  background-image: url("./Images/cooks-842244_700.jpg");
   background-position: center;
 }
 
 .products {
-  background-image: url("./Images/macarons-2548827_1920.jpg");
-  background-position: center;
+  background-image: url("./Images/macarons-2548827_700.jpg");
+  background-position: top;
 }
 
 .courses {
-  background-image: url("./Images/victor-rodriguez-iglesias-487137-unsplash.jpg");
-  background-position:center;
+  background-image: url("./Images/victor-rodriguez-iglesias-487137-unsplash_700.jpg");
+  background-position: center;
 }
 
 .contact {
-  background-image: url("./Images/paper-1731726_1920.jpg");
+  background-image: url("./Images/cake-pops-1398941_700.jpg");
+  background-position: center;
 }
 
 .section, .section {
@@ -163,7 +164,7 @@ p {
 
 .image-separate {
   margin-top: 5%;
-  background-image: url("./Images/holly-stratton-576521-unsplash.jpg");
+  background-image: url("./Images/holly-stratton-576521-unsplash_700.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -191,11 +192,11 @@ p {
 }
 
 .sales-point h2 {
-  color: #d4bce0;
+  color: #fff;
 }
 
 .sales-point a {
-  color: #d4bce0;
+  color: #fff;
 }
 
 .container-products {
@@ -222,7 +223,7 @@ p {
 }
 
 .one-product h2, .one-product p {
-  color: #d4bce0;
+  color: #fff;
   text-align: center;
 }
 
@@ -289,7 +290,7 @@ footer a {
   }
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1023px) {
   .logotype h1 {
     font-size: 300%;
   }
@@ -315,6 +316,25 @@ footer a {
 @media (min-width: 1024px) {
   .hero-section {
     height: 70vh;
+    background-image: url("./Images/cake-1283824_1920.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .about {
+    background-image: url("./Images/cooks-842244_1920.jpg");
+    background-position: center;
+  }
+  .products {
+    background-image: url("./Images/macarons-2548827_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .courses {
+    background-image: url("./Images/victor-rodriguez-iglesias-487137-unsplash_1920.jpg");
+    background-position:center;
+  }
+  .contact {
+    background-image: url("./Images/cake-pops-1398941_1920.jpg");
   }
   .logotype h1 {
     font-size: 400%;
@@ -337,7 +357,7 @@ footer a {
     display: none;
   }
   .row {
-    margin-top: -2%;
+    margin-top: -3%;
   }
   .menu .items {
     display: flex;
@@ -346,7 +366,7 @@ footer a {
   }
   .items {
     padding: 0;
-    height: 10vh;
+    height: 8vh;
     margin: 0;
   }
   .menu-item:nth-child(1) {
@@ -357,12 +377,14 @@ footer a {
   }
   .one-product {
     font-size: 200%;
-}
+ }
   .image-separate {
     margin-top: 5%;
-    background-image: url("./Images/holly-stratton-576521-unsplash.jpg");
+    background-image: url("./Images/holly-stratton-576521-unsplash_1920.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 50vh;
+  }
+}
