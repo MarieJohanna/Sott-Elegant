@@ -22,11 +22,17 @@ h1 {
   font-weight: lighter;
 }
 
-h2 {
+header h2 {
   font-family: 'Rozha One', serif;
   font-weight: lighter;
   color: #345270;
   text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Rozha One', serif;
+  font-weight: lighter;
+  color: #fff;
 }
 
 p {
@@ -162,6 +168,10 @@ p {
   font-family: 'Raleway', sans-serif;
 }
 
+.section a {
+  color: #fff;
+}
+
 .image-separate {
   margin-top: 5%;
   background-image: url("./Images/holly-stratton-576521-unsplash_700.jpg");
@@ -192,7 +202,7 @@ p {
 }
 
 .sales-point h2 {
-  color: #fff;
+  text-align: center;
 }
 
 .sales-point a {
@@ -200,7 +210,6 @@ p {
 }
 
 .container-products {
-  margin-top: 10%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -227,12 +236,20 @@ p {
   text-align: center;
 }
 
+.one-product a {
+  color: #fff;
+}
+
 .one-product img {
   width: 45%;
 }
 
 .prod-text {
   width: 45%;
+}
+
+.first-page {
+  margin-bottom: 30%;
 }
 
 footer {
@@ -246,12 +263,11 @@ footer {
   color: #345270;
   text-align: center;
   height: 10%;
-  /* position: fixed;
-  bottom: 0; */
 }
 
 footer h3 {
   margin: 0;
+  color: #345270;
 }
 
 footer h4 {
@@ -268,16 +284,16 @@ footer h4 {
   flex-direction: column;
 }
 
-footer a {
+footer a  {
   color: #345270;
 }
 
 /* Media queries  */
 
 @media (max-width: 375px) {
-  footer {
+  /* footer {
     margin-top: 25%;
-  }
+  } */
   .logotype h1 {
     font-size: 170%;
   }
@@ -285,9 +301,9 @@ footer a {
 
 
 @media (min-width: 375px) and (max-width: 425px) {
-  footer {
+  /* footer {
     margin-top: 30%;
-  }
+  } */
 }
 
 @media (min-width: 600px) and (max-width: 1023px) {
@@ -308,9 +324,9 @@ footer a {
   .sales-point h2 {
     font-size: 200%;
   }
-  footer {
+  /* footer {
     margin-top: 30%;
-  }
+  } */
 }
 
 @media (min-width: 1024px) {
@@ -326,7 +342,6 @@ footer a {
   .products {
     background-image: url("./Images/macarons-2548827_1920.jpg");
     background-position: center;
-    background-repeat: no-repeat;
   }
   .courses {
     background-image: url("./Images/victor-rodriguez-iglesias-487137-unsplash_1920.jpg");
@@ -350,13 +365,13 @@ footer a {
     border: 5px dotted #d4bce0;
   }
   .sales-point h2 {
-    font-size: 350%;
+    font-size: 300%;
   }
   .bar, .checkbox, #hamburger-checkbox, .hamburger {
     display: none;
   }
   .row {
-    margin-top: -3%;
+    margin-top:-2.5%;
   }
   .menu .items {
     display: flex;
